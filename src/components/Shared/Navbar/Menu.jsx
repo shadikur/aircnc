@@ -1,4 +1,5 @@
 import { AiOutlineMenu } from 'react-icons/ai'
+import Avatar from './Avatar'
 import { useCallback, useContext, useState } from 'react'
 import { AuthContext } from '../../../providers/AuthProvider'
 import { Link } from 'react-router-dom'
@@ -24,6 +25,7 @@ const Menu = () => {
                     >
                         <AiOutlineMenu />
                         <div className='hidden md:block'>
+                            <Avatar />
                         </div>
                     </div>
                 </div>
