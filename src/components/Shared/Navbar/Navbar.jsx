@@ -1,6 +1,8 @@
 import React from 'react';
 import Container from '../Container';
 import Logo from './Logo';
+import Search from './Search';
+import Menu from './Menu';
 
 const Navbar = () => {
     return (
@@ -9,8 +11,8 @@ const Navbar = () => {
                 <Container>
                     <div className="flex flex-row items-center justify-between gap-3 md:gap-0">
                         <Logo></Logo>
-                        <div className="">Search</div>
-                        <div className="">Menu</div>
+                        <Search></Search>
+                        <Menu></Menu>
                     </div>
                 </Container>
             </div>
